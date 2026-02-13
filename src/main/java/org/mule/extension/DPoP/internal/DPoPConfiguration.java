@@ -79,7 +79,7 @@ public void setPublicKey(String publicKey) {
 }
 
 public String getAccessTokenUrl() {
-	return accessTokenUrl;
+	return accessTokenUl;
 }
 
 public void setAccessTokenUrl(String accessTokenUrl) {
