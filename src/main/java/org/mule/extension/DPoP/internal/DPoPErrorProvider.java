@@ -7,7 +7,7 @@ import org.mule.runtime.extension.api.annotation.error.ErrorTypeProvider;
 import org.mule.runtime.extension.api.error.ErrorTypeDefinition;
 
 public class DPoPErrorProvider implements ErrorTypeProvider{
-	@SuppressWarnings("rawtypes")
+	@SuppressWarnings("rawtypesa")
 	@Override
     public Set<ErrorTypeDefinition> getErrorTypes() {
         Set<ErrorTypeDefinition> errors = new HashSet<ErrorTypeDefinition>();
