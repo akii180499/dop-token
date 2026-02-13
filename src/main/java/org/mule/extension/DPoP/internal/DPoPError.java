@@ -1,7 +1,7 @@
 package org.mule.extension.DPoP.internal;
 
 import org.mule.runtime.extension.api.error.ErrorTypeDefinition;
-
+//This is a new comment
 public enum DPoPError implements ErrorTypeDefinition<DPoPError> {
 	FILE_NOT_FOUND,
 	IO_ERROR1,

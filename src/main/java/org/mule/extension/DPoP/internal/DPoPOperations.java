@@ -39,6 +39,7 @@ import com.google.gson.JsonParser;
 import com.nimbusds.jose.util.Base64URL;
 
 //This is a comment
+//This is a new comment
 import org.mule.runtime.extension.api.annotation.param.Config;
 
 public class DPoPOperations {
