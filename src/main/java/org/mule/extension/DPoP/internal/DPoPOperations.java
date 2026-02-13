@@ -69,7 +69,7 @@ public class DPoPOperations {
 	@MediaType(value = ANY, strict = false)
 	private static String noPayloadGenerateDPoP(String privateKey, String publicKey, String url, String httpMethod) {
 		String dpopToken;
-		dpopToken = generateDPoP(privateKey, publicKey, url, httpMethod);
+		dpopToken = (privateKey, publicKey, url, httpMethod);
 
 		return dpopToken;
 	}
