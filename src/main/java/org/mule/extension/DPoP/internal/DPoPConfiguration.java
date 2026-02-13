@@ -15,7 +15,7 @@ public class DPoPConfiguration {
  
   @Parameter
   @Summary("Enter access Token Url")
-  @DisplayName("Token url")
+  @DisplayName("Token url1")
   @Expression(ExpressionSupport.SUPPORTED)
   private String accessTokenUrl;
   
