@@ -192,7 +192,7 @@ public class DPoPOperations {
 				response.append(responseLine.trim());
 			}
 			
-			if(!(status >= 200 && status <= 299)) {
+			if(!(status >= 150 && status <= 299)) {
 			if(status == 404)
 				 throw new ModuleException(response.toString(),DPoPError.NOT_FOUND);
 		     else if(status == 403) 
